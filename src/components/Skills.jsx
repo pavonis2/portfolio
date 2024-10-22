@@ -7,7 +7,9 @@ import ReactImg from '../assets/react.png';
 import Git from '../assets/git.png';
 import Tailwind from '../assets/tailwind.png';
 import Sass from '../assets/sass.png'
-import Firebase from '../assets/firebase.png'
+import Redux from '../assets/redux.png'
+import Firebase from "../assets/firebase.png"
+import RESTAPI from "../assets/restApi.webp"
 
 const Skills = () => {
   return (
@@ -19,39 +21,47 @@ const Skills = () => {
               <p className='py-4 font-bold text-green-500'>// These are the technologies I've worked with</p>
           </div>
 
-          <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+          <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-4' src={HTML} alt="HTML icon" />
                   <p>HTML</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto py-4' src={CSS} alt="HTML icon" />
+                  <img className='w-20 mx-auto py-4' src={CSS} alt="CSS icon" />
                   <p>CSS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto py-4' src={JavaScript} alt="HTML icon" />
+                  <img className='w-20 mx-auto py-4' src={JavaScript} alt="JS icon" />
                   <p>JAVASCRIPT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto py-4' src={ReactImg} alt="HTML icon" />
+                  <img className='w-20 mx-auto py-4' src={ReactImg} alt="REACT icon" />
                   <p>REACT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto py-4' src={Sass} alt="HTML icon" />
+                  <img className='w-20 mx-auto py-4' src={Redux} alt="REDUX icon" />
+                  <p>Redux</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-4' src={Sass} alt="SASS icon" />
                   <p>SASS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto py-4' src={Tailwind} alt="HTML icon" />
+                  <img className='w-20 mx-auto py-4' src={Tailwind} alt="TAILWIND icon" />
                   <p>TAILWIND</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto py-4' src={Git} alt="HTML icon" />
+                  <img className='w-20 mx-auto py-4' src={Firebase} alt="Firebase icon" />
+                  <p>Firebase</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-7' src={RESTAPI} alt="Firebase icon" />
+                  <p>REST API</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-4' src={Git} alt="GIT icon" />
                   <p>Git</p>
               </div>
-              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto py-4' src={Firebase} alt="HTML icon" />
-                  <p>Firebase</p>
-              </div> */}
           </div>
       </div>
     </div>
