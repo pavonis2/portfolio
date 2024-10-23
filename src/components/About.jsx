@@ -2,6 +2,7 @@ import React from 'react';
 import India from "../assets/india.jpg"
 import { BiLogoGmail } from "react-icons/bi";
 import { FaFilePdf } from "react-icons/fa";
+import resume from "../assets/resume.pdf"
 
 const About = () => {
   return (
@@ -21,12 +22,11 @@ const About = () => {
           <div>
             <p className=''>I am a self taught <span className='font-bold text-xl text-orange-500'>Frontend developer</span> for a keen eye for visual communication based in a small 
               city called Hyderabad from the Golden Sparrow, The Subcontinent <img src={India} className="h-14 inline" />. If you are hiring a junior 
-              frontend developer, here's my <a 
-                href="" 
+              frontend developer, here's my <a
+                href={resume}
                 className='font-bold text-xl text-cyan-400 cursor-pointer'
                 target="_blank"
                 rel="noopener noreferrer"
-                download
               ><FaFilePdf color='red' className='inline' size={19}/>RESUME
               </a>. Get in touch at <BiLogoGmail className='inline text-red-500' size={24}/> <span className='font-bold'>f20180826P@alumni.bits-pilani.ac.in</span>.
             </p>  
