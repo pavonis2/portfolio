@@ -1,6 +1,8 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
+import { TbFileCv } from "react-icons/tb";
+import resume from "../assets/resume.pdf"
 
 const Main = () => {
   return (
@@ -26,12 +28,15 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className='flex justify-between pt-6 max-w-[80px] w-full '>
+          <div className='flex justify-between pt-6 max-w-[150px] w-full '>
             <a href="https://github.com/pavonis2" target='_blank'>
               <FaGithub color='white' size={30} className='cursor-pointer hover:animate-bounce'/>
             </a>
             <a href="https://www.linkedin.com/in/rohan-m-v-228860220" target='_blank'>
               <FaLinkedin color='white' size={30} className='cursor-pointer hover:animate-bounce'/>
+            </a>
+            <a href={resume} target='_blank'>
+              <TbFileCv color='white' size={30} className='cursor-pointer hover:animate-bounce'/>
             </a>
           </div>
         </div>
