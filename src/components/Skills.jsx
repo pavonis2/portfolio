@@ -40,7 +40,7 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-4' src={Redux} alt="REDUX icon" />
-                  <p>Redux</p>
+                  <p>Redux-Toolkit</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-4' src={Sass} alt="SASS icon" />
