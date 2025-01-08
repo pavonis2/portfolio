@@ -32,7 +32,7 @@ const Main = () => {
             <a href="https://github.com/pavonis2" target='_blank'>
               <FaGithub color='white' size={30} className='cursor-pointer hover:animate-bounce'/>
             </a>
-            <a href="https://www.linkedin.com/in/rohan-m-v-228860220" target='_blank'>
+            <a href="https://www.linkedin.com/in/rohan-mv/" target='_blank'>
               <FaLinkedin color='white' size={30} className='cursor-pointer hover:animate-bounce'/>
             </a>
             <a href={resume} target='_blank'>
